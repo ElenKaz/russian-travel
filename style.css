@@ -1,0 +1,90 @@
+body {
+  background-color: cadetblue;
+}
+
+.page {
+  font-family: 'Inter';
+  overflow: hidden;
+  color: #fff;
+  background-color: #2A2C2F;
+  ;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+  text-align: center;
+  margin: 48px auto 0;
+}
+
+.header__subtitle {
+  text-align: center;
+  margin: 16px auto 0;
+}
+
+.header__logo {
+  width: 142px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px auto 0;
+  width: 95%;
+}
+
+.header__lang-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 18px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 8px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+}
+
+.header-image {
+  min-width: 320px;
+  min-height: 200px;
+  margin-top: 40px;
+}
+
+.text__caption {
+  margin-left: 16px;
+}
+
+.intro {
+  margin-left: 16px;
+
+}
+
+.intro__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.intro__list {
+  decoration: none;
+
+}
