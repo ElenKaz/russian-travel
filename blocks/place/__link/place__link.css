@@ -1,0 +1,25 @@
+.place__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  padding-bottom: 48px;
+  margin: 0;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 425px) {
+  .place__link {
+     padding: 0 16px 32px 0;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 600px) {
+  .place__link {
+     padding-bottom: 32px;
+  }
+}
