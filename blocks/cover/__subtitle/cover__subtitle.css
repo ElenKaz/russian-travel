@@ -5,19 +5,14 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  z-index: 1;
   text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, +40%);
 }
 
 @media screen and (max-width: 760px) {
   .cover__subtitle {
-      min-width: 288px;
+      max-width: calc(100% - 16px * 2);
       font-size: 14px;
       line-height: 16px;
-      margin: 16px auto 0;
-      transform: translate(-50%, -5%);
   }
 }

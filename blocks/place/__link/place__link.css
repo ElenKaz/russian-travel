@@ -2,8 +2,7 @@
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
-  padding-bottom: 48px;
-  margin: 0;
+  margin-bottom: 48px;
   color: #FFFFFF;
   transition: 0.5s;
 }
@@ -18,7 +17,7 @@
   }
 }
 
-@media (min-width: 426px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .place__link {
      padding-bottom: 32px;
   }
